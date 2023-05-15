@@ -22,7 +22,7 @@ create table contacts(
 drop table campaign;
 
 CREATE TABLE campaign (
-    cf_id INT,
+    cf_id INT Primary Key,
     contact_id INT,
     company_name VARCHAR(50),
     description TEXT,
